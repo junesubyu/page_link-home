@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans+KR:wght@100;300;400;500;700;900 & display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+}
+
+.head {
+    width: 1000px;
+    padding: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.head h2 {
+    font-size: 40px;
+}
+
+.nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.nav ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    height: 80px;
+    display: block;
+    line-height: 80px;
+    padding: 0 30px;
+}
+
+.contents {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contents h2 {
+    margin: 0 0 30px 0;
+}
+
+.contents p {
+    margin-bottom: 20px;
+}
+
+.contents .photo {
+    width: 1000px;
+    margin: 30px;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.item .image {
+    background-color: #ddd;
+    width: 300px;
+    height: 210px;
+    margin-right: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item .image img {
+    width: 300px;
+    height: 210px;
+}
+
+.item .texts {}
+
+.item .texts h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.item.item_01 {
+    /* background-color: red; */
+}
+
+.item.item_01 .image {
+    background-image: url("../images/london_b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* background: url("../images/london.jpg") no-repeat center center;
+    background-size: cover; */
+}
+
+.item.item_02 .image {
+    background-image: url("../images/paris_b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* background: url("../images/london.jpg") no-repeat center center;
+    background-size: cover; */
+}
+.bottom {
+    padding: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
